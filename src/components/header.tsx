@@ -5,6 +5,8 @@ import { Search, Heart, ShoppingCart, ChevronDown, Menu, X, Mail, PhoneCall } fr
 import { UserRound } from 'lucide-react';
 
 function Header() {
+
+  
   const [menuOpen, setMenuOpen] = useState(false);
   const [homeDropdownOpen, setHomeDropdownOpen] = useState(false);
 
