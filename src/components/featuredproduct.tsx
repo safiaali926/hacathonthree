@@ -34,7 +34,7 @@ function ProductDisplay() {
         const query = `*[_type == "product"] | order(_createdAt desc) [18..21] {
           _id,
           title,
-          "code": productCode,
+          code,
           price,
           "image": image.asset->url
         }`;
